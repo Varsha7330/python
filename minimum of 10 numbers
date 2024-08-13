@@ -1,0 +1,6 @@
+n=[]
+for i in range(10):
+    a=int(input())
+    n.append(a)
+min=min(n)
+print(f"Thank you! {min} is the smallest number." )
